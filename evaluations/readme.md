@@ -2,9 +2,9 @@
 
 - The first set of evaluations was a general assessment of GPT-4V's performance, utilizing the test dataset from ChartInsights.
 
-    You can get the test set in the [dataset directory](https://github.com/Evanwu1125/ChartInsights/tree/main/datasets/test_dataset). The relevant annotations and qa_pairs are all available. This set contains 400 pictures and 17552 questions in total, covering all 10 low-level analysis tasks and 7 charts from different categories.
+    You can get the test set in the [overall directory](/overall). The relevant annotations and qa_pairs are all available. This set contains 400 pictures and 17552 questions in total, covering all 10 low-level analysis tasks and 7 charts from different categories.
 
-    The results from GPT-4V are well preserved in [dataset directory](https://github.com/Evanwu1125/ChartInsights/tree/main/datasets/test_dataset) as well.
+    The results from GPT-4V are well preserved in [overall directory](/overall) as well.
 
 - The second set of evaluations involved altering 15 types of chart elements.
 
