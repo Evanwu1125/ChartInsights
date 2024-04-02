@@ -51,8 +51,14 @@ shows the distribution of 10 low-level tasks and 7 chart types.
 <img src="./pngs/heatmap.png" width="600px" center>
 </div>
 
-### pipeline for dataset construction
+
+### Pipeline for dataset construction
 <div align=center>
 <img src="./pngs/dataset%20construction%20pipeline.png" width="600px" center>
 </div>
 
+## Dataset Examples
+
+## Evaluation on ChartInsights
+
+## Evaluation Results
