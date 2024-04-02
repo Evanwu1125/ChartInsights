@@ -1,17 +1,17 @@
 # Evaluating Task-based Effectiveness of GPT4-V on Charts
-- About ChartsInsights
-    - Scale of ChartInsights
-    - 10 Low-Level analysis tasks
-    - Distribution of 7 charts on 10 tasks
-    - Pipeline for Dataset Construction
-- Dataset Examples
-- Evaluations on ChartInsights
-    - Evaluation Set
-    - Vary the Chart Elements
-    - Vary the Chart Quality
-    - Three types of Visual Prompt and Chain-of-Thought
-- Evaluation Scripts on ChartInsights with GPT-4V
-- Evaluations Results
+- [About ChartsInsights](main/README.md)
+    - [Scale of ChartInsights](main/README.md)
+    - [10 Low-Level analysis tasks](main/README.md)
+    - [Distribution of 7 charts on 10 tasks](main/README.md)
+    - [Pipeline for Dataset Construction](main/README.md)
+- [Dataset Examples](main/README.md)
+- [Evaluations on ChartInsights](main/README.md)
+    - [Evaluation Set](main/README.md)
+    - [Vary the Chart Elements](main/README.md)
+    - [Vary the Chart Quality](main/README.md)
+    - [Three types of Visual Prompts and Chain-of-Thought](main/README.md)
+- [Evaluation Scripts on ChartInsights with GPT-4V](main/README.md)
+- [Evaluations Results](main/README.md)
 
 
 ## About ChartInsights
