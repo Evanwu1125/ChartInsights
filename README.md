@@ -12,10 +12,10 @@
     - [Three types of Visual Prompts and Chain-of-Thought](main/README.md)
 - [Evaluation Scripts on ChartInsights with GPT-4V](main/README.md)
 - [Evaluations Results](main/README.md)
-    - overall evaluation results
-    - vary chart element results
-    - vary chart quality results
-    - Visual prompt and Chain-of-Charts
+    - [overall evaluation results](main/README.md)
+    - [vary chart element results](main/README.md)
+    - [vary chart quality results](main/README.md)
+    - [Visual prompt and Chain-of-Charts](main/README.md)
 
 
 ## About ChartInsights
