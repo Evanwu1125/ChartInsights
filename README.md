@@ -12,6 +12,10 @@
     - [Three types of Visual Prompts and Chain-of-Thought](main/README.md)
 - [Evaluation Scripts on ChartInsights with GPT-4V](main/README.md)
 - [Evaluations Results](main/README.md)
+    - overall evaluation results
+    - vary chart element results
+    - vary chart quality results
+    - Visual prompt and Chain-of-Charts
 
 
 ## About ChartInsights
@@ -31,7 +35,7 @@ __Q3__: Impact of Chain-of-Thoughts. Can we enhance basic textual
 prompts in Q1 with a chain-of-thoughts like approach?
 
 __Q4__: Synergistic Effect of Visual and Textual Prompts: Can the
-combination of visual and textual prompts lead to enhanced performance in low-level ChartQA tasks with GPT-4V? This questionexplores the potential for achieving better results by integratingboth types of prompts.
+combination of visual and textual prompts lead to enhanced performance in low-level ChartQA tasks with GPT-4V? This question explores the potential for achieving better results by integrating both types of prompts.
 ### Scale of ChartInsights
 The ChartInsights dataset contains 89,388 (chart, task, query, answer)
 ChartQA samples across 7 chart types for 10 low-level data analysis
@@ -58,6 +62,9 @@ shows the distribution of 10 low-level tasks and 7 chart types.
 </div>
 
 ## Dataset Examples
+<div align=center>
+<img src="./pngs/dataset_example.png" width="800px" center>
+</div>
 
 ## Evaluation on ChartInsights
 **We conducted a total of four sets of evaluations on GPT-4V.**
@@ -85,4 +92,24 @@ shows the distribution of 10 low-level tasks and 7 chart types.
 
     The results from GPT-4V according to this set are well preserved as well.
 ## Evaluation scripts on ChartInsights with GPT-4V
+You can directly using
 ## Evaluation Results
+### Overall evaluation results
+<div align=center>
+<img src="./pngs/overall_results.png" width="800px" center>
+</div>
+
+### vary chart element results
+<div align=center>
+<img src="./pngs/vary_chart_element_results.png" width="800px" center>
+</div>
+
+### vary chart quality results
+<div align=center>
+<img src="./pngs/vary_image_quality.png" width="800px" center>
+</div>
+
+### visual prompt and chain-of-charts
+<div align=center>
+<img src="./pngs/visual_prompt_and_chain_of_charts.png" width="800px" center>
+</div>
