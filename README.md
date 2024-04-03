@@ -84,5 +84,5 @@ shows the distribution of 10 low-level tasks and 7 chart types.
     You can get visual-prompted images in [Three Types of Visual Prompt](https://github.com/Evanwu1125/ChartInsights/tree/main/evaluations/Three%20Types%20of%20Visual%20Prompt). This set contains 255 visual variants and 1020 corresponding qa_pairs, covering all 10 low-level analysis tasks and 7 charts from different categories.
 
     The results from GPT-4V according to this set are well preserved as well.
-
+## Evaluation scripts on ChartInsights with GPT-4V
 ## Evaluation Results
