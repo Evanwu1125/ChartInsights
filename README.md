@@ -92,7 +92,10 @@ shows the distribution of 10 low-level tasks and 7 chart types.
 
     The results from GPT-4V according to this set are well preserved as well.
 ## Evaluation scripts on ChartInsights with GPT-4V
-You can directly using
+You can find the evaluation code [here](/main/example.ipynb). Before you start, remember to use your own Openai API KEY.
+```python
+api_key = 'YOUR API KEY'
+```
 ## Evaluation Results
 ### Overall evaluation results
 <div align=center>
