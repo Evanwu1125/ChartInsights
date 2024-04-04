@@ -52,7 +52,7 @@ shows the distribution of 10 low-level tasks and 7 chart types.
 
 ### Heatmap for showing the distribution of 7 charts on 10 tasks
 <div align=center>
-<img src="./pngs/heatmap.png" width="600px" center>
+<img src="./pngs/new_heatmap.png" width="600px" center>
 </div>
 
 
