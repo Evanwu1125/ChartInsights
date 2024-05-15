@@ -121,7 +121,37 @@ api_key = 'YOUR API KEY'
 </div>
 
 ## Leaderboard
-### How to contribute to the leaderboard
+### Evaluation Pipeline and how to contribute to the leaderboard
+
+- requirement
+
+```
+├── test_qa_pairs.json
+├── test_annotations.json
+├── images
+    ├── 1.jpg
+    ├── 2.jpg
+    └── ...
+```
+- Response Generation
+    The first set of evaluations was a general assessment of MLLM's performance, utilizing the test dataset from ChartInsights. Take GPT-4V as example, run the [Response Generation Template](/overall/Response_Generation_Template.ipynb) and get a result collection like [Model_Response file](/overall/Model_Response_Template.json)
+
+- Accuracy Calculation
+    With the [Model_Response file](/overall/Result_Template.json), in this format, run [Accuracy Calculation](/overall/Accuracy Calculation/_main_.py). Finally,  you can get [6 csv file](/overall/Accuracy Table/) containing details about test result.
+
+- Output
+
+```
+├── Model_Response.json
+├── Accuracy Table
+    ├── Overall_chart_accuracy.csv
+    ├── Overall_task_accuracy.csv
+    ├── Overall_question_accuracy.csv
+    ├── Chart2Task_accuracy.csv
+    ├── Question2Task_accuracy.csv
+    └── Chart2Question_accuracy.csv
+```
+Feel free to use ChartInsights to benchmark your models and send the results to [this email](evanwu50020@gmail.com) as feedback to help us upgrade the leaderboard continuously!
 ### Results of advanced MLLMs on ChartInsights
 | Overall  | Model                | Reasoning | Anomaly | Distribution | Correlation | Range | Order | Filter | Retrieval | Extreme | Cluster |
 |----------|----------------------|----------|-----------|---------|-------------|-------------|-------|-------|--------|-----------|--------|
