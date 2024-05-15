@@ -151,7 +151,7 @@ api_key = 'YOUR API KEY'
     ├── Question2Task_accuracy.csv
     └── Chart2Question_accuracy.csv
 ```
-Feel free to use ChartInsights to benchmark your models and send the results to [this email](evanwu50020@gmail.com) as feedback to help us upgrade the leaderboard continuously!
+Feel free to use ChartInsights to benchmark your models and send the results to [this email](https://github.com/Evanwu1125) as feedback to help us upgrade the leaderboard continuously!
 ### Results of advanced MLLMs on ChartInsights
 | Overall  | Model                | Reasoning | Anomaly | Distribution | Correlation | Range | Order | Filter | Retrieval | Extreme | Cluster |
 |----------|----------------------|----------|-----------|---------|-------------|-------------|-------|-------|--------|-----------|--------|
