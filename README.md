@@ -22,7 +22,7 @@
 
 
 ## About ChartInsights
-In this paper, we aim to systematically investigate the capabilities of GPT-4V in addressing 10 low-level data analysis tasks. Our study seeks to answer the following critical questions, shedding light on the potential of MLLMs in performing detailed, granular analyses.
+[In this paper](https://arxiv.org/abs/2405.07001), we aim to systematically investigate the capabilities of GPT-4V in addressing 10 low-level data analysis tasks. Our study seeks to answer the following critical questions, shedding light on the potential of MLLMs in performing detailed, granular analyses.
 
 __Q1__: Impact of Textual Prompt Variations. What is the impact of
 different textual prompts on GPT-4V ’s output accuracy? This
@@ -143,3 +143,15 @@ api_key = 'YOUR API KEY'
 | 29.4325  | cogvlm               | 20.32    | 23.05     | 43.63   | 29.57       | 37.73       | 10.77 | 9.07  | 37.86  | 56.62     | 26.7   | 29.4325 |
 | 28.305   | Blip2                | 24.8     | 23.44     | 25      | 15.14       | 25.33       | 20.19 | 39.83 | 27.8   | 30.26     | 30.11  | 28.305  |
 | 26.1875  | VisCPM               | 28.44    | 46.09     | 33.33   | 51.92       | 22.98       | 6.35  | 25.13 | 15.75  | 32        | 29.55  | 26.1875 |
+
+## Citation
+```
+@misc{wu2024evaluating,
+      title={Evaluating Task-based Effectiveness of MLLMs on Charts}, 
+      author={Yifan Wu and Lutao Yan and Yuyu Luo and Yunhai Wang and Nan Tang},
+      year={2024},
+      eprint={2405.07001},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
