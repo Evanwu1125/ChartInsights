@@ -1,0 +1,5 @@
+,Retrieval,Extreme,Cluster,Filter,Range,Order,Distribution,Anomaly,Correlation,Reasoning
+fill_the_blank,67.47,89.24,73.30,20.85,49.35,20.00,54.90,15.62,50.00,16.59
+single_choice,81.89,97.85,82.39,48.14,99.22,43.08,78.43,17.19,64.42,35.62
+judgement_question,55.45,79.80,67.61,75.42,54.57,78.46,21.57,31.25,72.12,66.46
+corrective_question,65.54,87.75,68.18,32.88,77.02,26.15,58.82,14.06,51.92,21.98
