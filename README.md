@@ -1,21 +1,24 @@
-# Evaluating Task-based Effectiveness of GPT4-V on Charts
-- [About ChartsInsights](README.md)
+# Evaluating Task-based Effectiveness of MLLMs(especially GPT4-V) on Charts
+- 🥳[About ChartsInsights](README.md)
     - [Scale of ChartInsights](README.md)
     - [10 Low-Level analysis tasks](README.md)
     - [Distribution of 7 charts on 10 tasks](README.md)
     - [Pipeline for Dataset Construction](README.md)
-- [Dataset Examples](README.md)
-- [Evaluations on ChartInsights](README.md)
+- 🎮[Dataset Examples](README.md)
+- 📊[Evaluations on ChartInsights](README.md)
     - [Evaluation Set](README.md)
     - [Vary the Chart Elements](README.md)
     - [Vary the Chart Quality](README.md)
     - [Three types of Visual Prompts and Chain-of-Thought](README.md)
-- [Evaluation Scripts on ChartInsights with GPT-4V](README.md)
-- [Evaluations Results](README.md)
+- 📊[Evaluation Scripts on ChartInsights with GPT-4V](README.md)
+- 🧪[Evaluations Results](README.md)
     - [overall evaluation results](README.md)
     - [vary chart element results](README.md)
     - [vary chart quality results](README.md)
     - [Visual prompt and Chain-of-Charts](README.md)
+- ⭐[Leaderboard](README.md)
+    - [How to contribute to the leaderboard](README.md)
+    - [Results of advanced MLLMs on ChartInsights](README.md)
 
 
 ## About ChartInsights
@@ -116,3 +119,27 @@ api_key = 'YOUR API KEY'
 <div align=center>
 <img src="./pngs/visual_prompt_and_chain_of_charts.png" width="800px" center>
 </div>
+
+## Leaderboard
+### How to contribute to the leaderboard
+### Results of advanced MLLMs on ChartInsights
+| Overall  | Model                | Reasoning | Anomaly | Distribution | Correlation | Range | Order | Filter | Retrieval | Extreme | Cluster |
+|----------|----------------------|----------|-----------|---------|-------------|-------------|-------|-------|--------|-----------|--------|
+| 🥇56.13    | GPT-4V               | 35.17    | 19.53     | 53.43   | 59.62       | 70.04       | 41.92 | 44.32 | 67.59  | 88.66     | 72.87  | 56.13   |
+| 🥈51.655   | qwen-vl-max          | 28.84    | 25.78     | 62.25   | 62.98       | 66.12       | 40.19 | 38.86 | 66.99  | 79.64     | 66.76  | 51.655  |
+| 🥉49.545   | Claude3(Haiku)       | 33.04    | 8.98      | 42.65   | 46.15       | 60.44       | 26.15 | 39.96 | 62.3   | 75.08     | 66.76  | 49.545  |
+| 48.4375  | ChatGLM-4V           | 34.07    | 28.91     | 39.22   | 42.31       | 55.5        | 18.85 | 43.41 | 58.08  | 69.31     | 71.43  | 48.4375 |
+| 48.36    | Gemini_pro           | 25.6     | 30.08     | 45.59   | 58.65       | 75.26       | 32.88 | 30.06 | 60.37  | 80.88     | 55.26  | 48.36   |
+| 42.595   | qwen-vl-plus         | 30.77    | 27.34     | 47.06   | 47.12       | 42.95       | 34.62 | 20.72 | 58.69  | 65.52     | 62.5   | 42.595  |
+| 40.2325  | Sphinx-v2           | 30.02    | 28.91     | 37.75   | 36.06       | 25.78       | 23.46 | 36.74 | 49.72  | 66.31     | 45.31  | 40.2325 |
+| 38.51    | LLava-NEXT           | 30.6     | 7.42      | 26.47   | 37.98       | 29.5        | 33.27 | 23.39 | 53.49  | 59.81     | 52.27  | 38.51   |
+| 33.295   | mPLUG-Owl2          | 30.99    | 26.95     | 29.41   | 35.34       | 28.39       | 22.5  | 40.25 | 30.89  | 41.1      | 27.27  | 33.295  |
+| 33.425   | qwen-VL-chat         | 27.78    | 36.33     | 45.1    | 55.77       | 33.75       | 20    | 28.69 | 31.25  | 50.21     | 27.13  | 33.425  |
+| 33.7525  | llava_vip            | 28.77    | 6.64      | 34.8    | 30.29       | 21.87       | 35.77 | 40.42 | 42.19  | 38.29     | 33.81  | 33.7525 |
+| 32.3875  | ChartAssistant       | 24.58    | 27.73     | 35.78   | 28.12       | 30.48       | 22.5  | 14.66 | 39.38  | 63.04     | 26.42  | 32.3875 |
+| 32.1875  | llava1.5             | 32.39    | 6.25      | 30.88   | 23.08       | 21.74       | 32.69 | 35.55 | 32.57  | 35.76     | 43.47  | 32.1875 |
+| 31.055   | OmniLMM-12B          | 24.67    | 19.92     | 26.96   | 34.86       | 35.7        | 28.27 | 29.96 | 33.01  | 39.94     | 33.1   | 31.055  |
+| 33.015   | MiniCPM-v2           | 19.54    | 55.08     | 33.33   | 56.49       | 24.87       | 16.73 | 36.31 | 37.94  | 52.4      | 31.96  | 33.015  |
+| 29.4325  | cogvlm               | 20.32    | 23.05     | 43.63   | 29.57       | 37.73       | 10.77 | 9.07  | 37.86  | 56.62     | 26.7   | 29.4325 |
+| 28.305   | Blip2                | 24.8     | 23.44     | 25      | 15.14       | 25.33       | 20.19 | 39.83 | 27.8   | 30.26     | 30.11  | 28.305  |
+| 26.1875  | VisCPM               | 28.44    | 46.09     | 33.33   | 51.92       | 22.98       | 6.35  | 25.13 | 15.75  | 32        | 29.55  | 26.1875 |
