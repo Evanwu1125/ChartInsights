@@ -22,7 +22,7 @@
 
 
 ## About ChartInsights
-[In this paper](https://arxiv.org/abs/2405.07001), we aim to systematically investigate the capabilities of GPT-4V in addressing 10 low-level data analysis tasks. Our study seeks to answer the following critical questions, shedding light on the potential of MLLMs in performing detailed, granular analyses.
+In this paper, we aim to systematically investigate the capabilities of GPT-4V in addressing 10 low-level data analysis tasks. Our study seeks to answer the following critical questions, shedding light on the potential of MLLMs in performing detailed, granular analyses.
 
 __Q1__: Impact of Textual Prompt Variations. What is the impact of
 different textual prompts on GPT-4V ’s output accuracy? This
