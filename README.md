@@ -174,14 +174,3 @@ Feel free to use ChartInsights to benchmark your models and send the results to 
 | 28.305   | Blip2                | 24.8     | 23.44     | 25      | 15.14       | 25.33       | 20.19 | 39.83 | 27.8   | 30.26     | 30.11  | 28.305  |
 | 26.1875  | VisCPM               | 28.44    | 46.09     | 33.33   | 51.92       | 22.98       | 6.35  | 25.13 | 15.75  | 32        | 29.55  | 26.1875 |
 
-## Citation
-```
-@misc{wu2024evaluating,
-      title={Evaluating Task-based Effectiveness of MLLMs on Charts}, 
-      author={Yifan Wu and Lutao Yan and Yuyu Luo and Yunhai Wang and Nan Tang},
-      year={2024},
-      eprint={2405.07001},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-```
