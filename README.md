@@ -133,7 +133,7 @@ api_key = 'YOUR API KEY'
     The first set of evaluations was a general assessment of MLLM's performance, utilizing the test dataset from ChartInsights. Take GPT-4V as example, run the [Response Generation Template](/Response_Generation_Template.ipynb) and get a result collection like [Model_Response file](/Model_Response_Template.json)
 
 - Accuracy Calculation
-    With the [Model_Response file](/Result_Template.json), in this format, run [Accuracy Calculation](/Accuracy Calculation/_main_.py). Finally,  you can get [6 csv file](/Accuracy Table/) containing details about test result.
+    With the [Model_Response file](/Result_Template.json), in this format, run [Accuracy Calculation](/Accuracy_Calculation/_main_.py). Finally,  you can get [6 csv file](/Accuracy_Table/) containing details about test result.
 
 - Output
 
