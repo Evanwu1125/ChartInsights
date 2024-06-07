@@ -91,7 +91,23 @@ shows the distribution of 10 low-level tasks and 7 chart types.
     You can get visual-prompted images in [Three Types of Visual Prompt](https://github.com/Evanwu1125/ChartInsights/tree/main/evaluations/Three%20Types%20of%20Visual%20Prompt). This set contains 255 visual variants and 1020 corresponding qa_pairs, covering all 10 low-level analysis tasks and 7 charts from different categories.
 
 ## Evaluation scripts on ChartInsights with GPT-4V
-You can find an example of evaluation code [here](example.ipynb). Before you start, remember to use your own Openai API KEY.
+### Overall Evaluation Scripts on GPT-4V
+You can find an example of evaluation code [here](https://github.com/Evanwu1125/ChartInsights/blob/main/evaluations/overall/overall_test.ipynb). Before you start, remember to use your own Openai API KEY.
+```python
+api_key = 'YOUR API KEY'
+```
+### Vary Basic Element Evaluation Scripts on GPT-4V
+You can find an example of evaluation code [here](https://github.com/Evanwu1125/ChartInsights/blob/main/evaluations/Vary%20Chart%20Element/vary_chart_element.ipynb). Before you start, remember to use your own Openai API KEY.
+```python
+api_key = 'YOUR API KEY'
+```
+### Vary Chart Quality Evaluation Scripts on GPT-4V
+You can find an example of evaluation code [here](https://github.com/Evanwu1125/ChartInsights/tree/main/evaluations/Vary%20Image%20Quality). Before you start, remember to use your own Openai API KEY.
+```python
+api_key = 'YOUR API KEY'
+```
+### Visual Prompt Evaluation Scripts on GPT-4V
+You can find an example of evaluation code [here](https://github.com/Evanwu1125/ChartInsights/blob/main/evaluations/Three%20Types%20of%20Visual%20Prompt/experiment_visual_prompt.ipynb). Before you start, remember to use your own Openai API KEY.
 ```python
 api_key = 'YOUR API KEY'
 ```
